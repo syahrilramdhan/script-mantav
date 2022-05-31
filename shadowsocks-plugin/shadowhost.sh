@@ -20,11 +20,11 @@ rm -rf /var/lib/crot/ipvps.conf
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=mantapxsl.my.id
-SUB_DOMAIN=onichan-${sub}.mantapxsl.my.id
-NS_DOMAIN=slowdns-${subsl}.mantapxsl.my.id
-CF_ID=slinfinity69@gmail.com
-CF_KEY=3dcb550a77cb0a64dacf205243e3ac550f9db
+DOMAIN=syra.co.id
+SUB_DOMAIN=onichan-${sub}.syra.co.id
+NS_DOMAIN=slowdns-${subsl}.syra.co.id
+CF_ID=syra.channel.id@gmail.com
+CF_KEY=3e7a0cb6e4dd917544c1ae4ba7aecd0d32b9b
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/ipvps.conf
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
